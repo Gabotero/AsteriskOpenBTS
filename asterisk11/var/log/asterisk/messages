@@ -1,0 +1,1346 @@
+[Nov 12 00:14:33] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 12 00:14:33] NOTICE[11107] loader.c: 2 modules will be loaded.
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: res_odbc loaded.
+[Nov 12 00:14:33] NOTICE[11107] config.c: Registered Config Engine odbc
+[Nov 12 00:14:33] NOTICE[11107] cdr.c: CDR simple logging enabled.
+[Nov 12 00:14:33] NOTICE[11107] loader.c: 227 modules will be loaded.
+[Nov 12 00:14:33] NOTICE[11107] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 12 00:14:33] NOTICE[11107] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 12 00:14:33] ERROR[11107] res_config_ldap.c: No directory URL or host found.
+[Nov 12 00:14:33] ERROR[11107] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 12 00:14:33] ERROR[11107] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 12 00:14:33] WARNING[11107] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 12 00:14:33] NOTICE[11107] config.c: Registered Config Engine pgsql
+[Nov 12 00:14:33] NOTICE[11107] config.c: Registered Config Engine curl
+[Nov 12 00:14:33] NOTICE[11107] config.c: Registered Config Engine sqlite3
+[Nov 12 00:14:33] ERROR[11107] res_config_sqlite.c: unable to open database: /var/lib/asterisk/sqlite.db
+[Nov 12 00:14:33] NOTICE[11107] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 12 00:14:33] WARNING[11107] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 12 00:14:33] WARNING[11107] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 12 00:14:33] WARNING[11107] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 12 00:14:33] WARNING[11107] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 12 00:14:33] WARNING[11107] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Unable to retrieve database handle for table description 'sip_buddies@asterisk'
+[Nov 12 00:14:33] ERROR[11107] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 12 00:14:33] ERROR[11107] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 12 00:14:33] ERROR[11107] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 12 00:14:33] ERROR[11107] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 12 00:14:33] NOTICE[11107] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 12 00:14:33] NOTICE[11107] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 12 00:14:33] WARNING[11107] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 12 00:14:33] NOTICE[11107] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 12 00:14:33] NOTICE[11107] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 12 00:14:33] WARNING[11107] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 12 00:14:33] ERROR[11107] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: Starting AEL load process.
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:14:33] NOTICE[11107] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:14:33] ERROR[11107] res_corosync.c: Failed to initialize cfg (6)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:14:33] NOTICE[11107] res_odbc.c: Connecting asterisk
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: res_odbc: Error SQLConnect=-1 errno=14 [unixODBC][SQLite]connect failed
+[Nov 12 00:14:33] WARNING[11107] res_odbc.c: Failed to connect to asterisk
+[Nov 12 00:14:33] ERROR[11107] res_config_odbc.c: No database handle available with the name of 'asterisk' (check res_odbc.conf)
+[Nov 12 00:18:13] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 12 00:18:13] NOTICE[11359] loader.c: 2 modules will be loaded.
+[Nov 12 00:18:13] NOTICE[11359] res_odbc.c: Connecting asterisk
+[Nov 12 00:18:13] NOTICE[11359] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 12 00:18:13] NOTICE[11359] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 12 00:18:13] NOTICE[11359] res_odbc.c: res_odbc loaded.
+[Nov 12 00:18:13] NOTICE[11359] config.c: Registered Config Engine odbc
+[Nov 12 00:18:13] NOTICE[11359] cdr.c: CDR simple logging enabled.
+[Nov 12 00:18:13] NOTICE[11359] loader.c: 227 modules will be loaded.
+[Nov 12 00:18:13] NOTICE[11359] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 12 00:18:13] NOTICE[11359] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 12 00:18:13] ERROR[11359] res_config_ldap.c: No directory URL or host found.
+[Nov 12 00:18:13] ERROR[11359] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 12 00:18:13] ERROR[11359] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 12 00:18:13] WARNING[11359] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 12 00:18:13] NOTICE[11359] config.c: Registered Config Engine pgsql
+[Nov 12 00:18:13] NOTICE[11359] config.c: Registered Config Engine curl
+[Nov 12 00:18:13] NOTICE[11359] config.c: Registered Config Engine sqlite3
+[Nov 12 00:18:13] NOTICE[11359] config.c: Registered Config Engine sqlite
+[Nov 12 00:18:13] NOTICE[11359] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 12 00:18:13] WARNING[11359] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 12 00:18:13] WARNING[11359] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 12 00:18:13] WARNING[11359] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 12 00:18:13] WARNING[11359] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 12 00:18:13] WARNING[11359] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name LIKE ? AND callbackextension LIKE ? ORDER BY name]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name LIKE ? AND callbackextension LIKE ? ORDER BY name]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'name', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'ipaddr', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'port', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'regseconds', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'defaultuser', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'fullcontact', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'regserver', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'useragent', but that column does not exist!
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'lastms', but that column does not exist!
+[Nov 12 00:18:13] ERROR[11359] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 12 00:18:13] ERROR[11359] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 12 00:18:13] ERROR[11359] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 12 00:18:13] ERROR[11359] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 12 00:18:13] NOTICE[11359] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 12 00:18:13] NOTICE[11359] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 12 00:18:13] WARNING[11359] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 12 00:18:13] NOTICE[11359] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 12 00:18:13] NOTICE[11359] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 12 00:18:13] WARNING[11359] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 12 00:18:13] ERROR[11359] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: Starting AEL load process.
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:18:13] NOTICE[11359] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 12 00:18:13] ERROR[11359] res_corosync.c: Failed to initialize cfg (6)
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 12 00:18:13] WARNING[11359] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 13 11:30:25] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 13 11:30:25] NOTICE[16741] loader.c: 2 modules will be loaded.
+[Nov 13 11:30:25] NOTICE[16741] res_odbc.c: Connecting asterisk
+[Nov 13 11:30:25] NOTICE[16741] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 13 11:30:25] NOTICE[16741] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 13 11:30:25] NOTICE[16741] res_odbc.c: res_odbc loaded.
+[Nov 13 11:30:25] NOTICE[16741] config.c: Registered Config Engine odbc
+[Nov 13 11:30:25] NOTICE[16741] cdr.c: CDR simple logging enabled.
+[Nov 13 11:30:25] NOTICE[16741] loader.c: 227 modules will be loaded.
+[Nov 13 11:30:29] NOTICE[16741] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 13 11:30:29] NOTICE[16741] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 13 11:30:29] ERROR[16741] res_config_ldap.c: No directory URL or host found.
+[Nov 13 11:30:29] ERROR[16741] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 13 11:30:29] ERROR[16741] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 13 11:30:29] WARNING[16741] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 13 11:30:29] NOTICE[16741] config.c: Registered Config Engine pgsql
+[Nov 13 11:30:29] NOTICE[16741] config.c: Registered Config Engine curl
+[Nov 13 11:30:29] NOTICE[16741] config.c: Registered Config Engine sqlite3
+[Nov 13 11:30:29] NOTICE[16741] config.c: Registered Config Engine sqlite
+[Nov 13 11:30:29] NOTICE[16741] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 13 11:30:29] WARNING[16741] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 13 11:30:29] WARNING[16741] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 13 11:30:29] WARNING[16741] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 13 11:30:29] WARNING[16741] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 13 11:30:29] WARNING[16741] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 13 11:30:29] ERROR[16741] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 13 11:30:29] ERROR[16741] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 13 11:30:29] ERROR[16741] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 13 11:30:29] ERROR[16741] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 13 11:30:29] NOTICE[16741] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 13 11:30:29] NOTICE[16741] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 13 11:30:29] WARNING[16741] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 13 11:30:29] NOTICE[16741] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 13 11:30:29] NOTICE[16741] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 13 11:30:29] WARNING[16741] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 13 11:30:29] ERROR[16741] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: Starting AEL load process.
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 13 11:30:29] NOTICE[16741] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 13 11:30:29] ERROR[16741] res_corosync.c: Failed to initialize cfg (6)
+[Nov 13 11:30:58] NOTICE[16789][C-00000000] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 13 11:30:58] NOTICE[16789][C-00000000] chan_sip.c: Call from 'IMSI214040106742778' (127.0.0.1:5062) to extension '2001' rejected because extension not found in context 'phones'.
+[Nov 13 11:31:27] NOTICE[16789][C-00000001] chan_sip.c: Call from 'IMSI214040106742778' (127.0.0.1:5062) to extension '600' rejected because extension not found in context 'phones'.
+[Nov 15 18:58:29] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 15 18:58:29] NOTICE[3571] loader.c: 2 modules will be loaded.
+[Nov 15 18:58:30] NOTICE[3571] res_odbc.c: Connecting asterisk
+[Nov 15 18:58:30] NOTICE[3571] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 15 18:58:30] NOTICE[3571] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 15 18:58:30] NOTICE[3571] res_odbc.c: res_odbc loaded.
+[Nov 15 18:58:30] NOTICE[3571] config.c: Registered Config Engine odbc
+[Nov 15 18:58:30] NOTICE[3571] cdr.c: CDR simple logging enabled.
+[Nov 15 18:58:30] NOTICE[3571] loader.c: 227 modules will be loaded.
+[Nov 15 18:58:32] NOTICE[3571] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 15 18:58:32] NOTICE[3571] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 15 18:58:32] ERROR[3571] res_config_ldap.c: No directory URL or host found.
+[Nov 15 18:58:32] ERROR[3571] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 15 18:58:32] ERROR[3571] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 15 18:58:32] WARNING[3571] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 15 18:58:32] NOTICE[3571] config.c: Registered Config Engine pgsql
+[Nov 15 18:58:32] NOTICE[3571] config.c: Registered Config Engine curl
+[Nov 15 18:58:32] NOTICE[3571] config.c: Registered Config Engine sqlite3
+[Nov 15 18:58:32] NOTICE[3571] config.c: Registered Config Engine sqlite
+[Nov 15 18:58:33] ERROR[3571] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 15 18:58:33] NOTICE[3571] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 15 18:58:33] WARNING[3571] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 15 18:58:33] WARNING[3571] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 15 18:58:33] WARNING[3571] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 15 18:58:33] WARNING[3571] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 15 18:58:33] WARNING[3571] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name LIKE ? AND callbackextension LIKE ? ORDER BY name]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name LIKE ? AND callbackextension LIKE ? ORDER BY name]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'name', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'ipaddr', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'port', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'regseconds', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'defaultuser', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'fullcontact', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'regserver', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'useragent', but that column does not exist!
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: Realtime table sip_buddies@asterisk requires column 'lastms', but that column does not exist!
+[Nov 15 18:58:33] ERROR[3571] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 15 18:58:33] ERROR[3571] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 15 18:58:33] ERROR[3571] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 15 18:58:33] ERROR[3571] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 15 18:58:33] NOTICE[3571] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 15 18:58:33] NOTICE[3571] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 15 18:58:33] WARNING[3571] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 15 18:58:33] NOTICE[3571] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 15 18:58:33] NOTICE[3571] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 15 18:58:33] WARNING[3571] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 15 18:58:33] ERROR[3571] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: Starting AEL load process.
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 15 18:58:33] NOTICE[3571] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 15 18:58:33] ERROR[3571] res_corosync.c: Failed to initialize cfg (6)
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ? AND host = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 18:58:33] WARNING[3571] res_config_odbc.c: SQL Prepare failed![SELECT * FROM sip_buddies WHERE name = ?]
+[Nov 15 19:06:13] NOTICE[3619] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 15 19:06:13] WARNING[3619] res_config_odbc.c: Key field 'ipaddr' does not exist in table 'sip_buddies@asterisk'.  Update will fail
+[Nov 15 19:09:14] WARNING[3619] res_config_odbc.c: Key field 'ipaddr' does not exist in table 'sip_buddies@asterisk'.  Update will fail
+[Nov 15 19:10:31] NOTICE[3619][C-00000000] chan_sip.c: Call from 'IMSI214071330389592' (127.0.0.1:5062) to extension '2001' rejected because extension not found in context 'phones'.
+[Nov 19 21:14:19] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 19 21:14:19] NOTICE[27204] loader.c: 2 modules will be loaded.
+[Nov 19 21:14:19] NOTICE[27204] res_odbc.c: Connecting asterisk
+[Nov 19 21:14:19] NOTICE[27204] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 19 21:14:19] NOTICE[27204] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 19 21:14:19] NOTICE[27204] res_odbc.c: res_odbc loaded.
+[Nov 19 21:14:19] NOTICE[27204] config.c: Registered Config Engine odbc
+[Nov 19 21:14:19] NOTICE[27204] cdr.c: CDR simple logging enabled.
+[Nov 19 21:14:19] NOTICE[27204] loader.c: 227 modules will be loaded.
+[Nov 19 21:14:22] NOTICE[27204] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 19 21:14:22] NOTICE[27204] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 19 21:14:22] ERROR[27204] res_config_ldap.c: No directory URL or host found.
+[Nov 19 21:14:22] ERROR[27204] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 19 21:14:22] ERROR[27204] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 19 21:14:22] WARNING[27204] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 19 21:14:22] NOTICE[27204] config.c: Registered Config Engine pgsql
+[Nov 19 21:14:22] NOTICE[27204] config.c: Registered Config Engine curl
+[Nov 19 21:14:22] NOTICE[27204] config.c: Registered Config Engine sqlite3
+[Nov 19 21:14:22] NOTICE[27204] config.c: Registered Config Engine sqlite
+[Nov 19 21:14:23] ERROR[27204] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 19 21:14:23] NOTICE[27204] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 19 21:14:23] WARNING[27204] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 19 21:14:23] WARNING[27204] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 19 21:14:23] WARNING[27204] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 19 21:14:23] WARNING[27204] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 19 21:14:23] WARNING[27204] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 19 21:14:23] ERROR[27204] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 19 21:14:23] ERROR[27204] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 19 21:14:23] ERROR[27204] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 19 21:14:23] ERROR[27204] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 19 21:14:23] NOTICE[27204] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 19 21:14:23] NOTICE[27204] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 19 21:14:23] WARNING[27204] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 19 21:14:23] NOTICE[27204] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 19 21:14:23] NOTICE[27204] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 19 21:14:23] WARNING[27204] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 19 21:14:23] ERROR[27204] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: Starting AEL load process.
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 21:14:23] NOTICE[27204] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 21:14:23] ERROR[27204] res_corosync.c: Failed to initialize cfg (6)
+[Nov 19 21:33:45] NOTICE[27252][C-00000000] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 19 21:35:16] WARNING[27252] chan_sip.c: Retransmission timeout reached on transmission 593918390@127.0.0.1 for seqno 34 (Critical Response) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
+[Nov 19 22:06:06] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 19 22:06:06] NOTICE[28706] loader.c: 2 modules will be loaded.
+[Nov 19 22:06:06] NOTICE[28706] res_odbc.c: Connecting asterisk
+[Nov 19 22:06:06] NOTICE[28706] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 19 22:06:06] NOTICE[28706] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 19 22:06:06] NOTICE[28706] res_odbc.c: res_odbc loaded.
+[Nov 19 22:06:06] NOTICE[28706] config.c: Registered Config Engine odbc
+[Nov 19 22:06:06] NOTICE[28706] cdr.c: CDR simple logging enabled.
+[Nov 19 22:06:06] NOTICE[28706] loader.c: 227 modules will be loaded.
+[Nov 19 22:06:06] NOTICE[28706] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 19 22:06:06] NOTICE[28706] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 19 22:06:06] ERROR[28706] res_config_ldap.c: No directory URL or host found.
+[Nov 19 22:06:06] ERROR[28706] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 19 22:06:06] ERROR[28706] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 19 22:06:06] WARNING[28706] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 19 22:06:06] NOTICE[28706] config.c: Registered Config Engine pgsql
+[Nov 19 22:06:06] NOTICE[28706] config.c: Registered Config Engine curl
+[Nov 19 22:06:06] NOTICE[28706] config.c: Registered Config Engine sqlite3
+[Nov 19 22:06:06] NOTICE[28706] config.c: Registered Config Engine sqlite
+[Nov 19 22:06:06] ERROR[28706] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 19 22:06:06] NOTICE[28706] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 19 22:06:06] WARNING[28706] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 19 22:06:06] WARNING[28706] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 19 22:06:06] WARNING[28706] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 19 22:06:06] WARNING[28706] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 19 22:06:06] WARNING[28706] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 19 22:06:06] ERROR[28706] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 19 22:06:06] ERROR[28706] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 19 22:06:06] ERROR[28706] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 19 22:06:06] ERROR[28706] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 19 22:06:06] NOTICE[28706] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 19 22:06:06] NOTICE[28706] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 19 22:06:06] WARNING[28706] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 19 22:06:06] NOTICE[28706] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 19 22:06:06] NOTICE[28706] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 19 22:06:06] WARNING[28706] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 19 22:06:06] ERROR[28706] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: Starting AEL load process.
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 22:06:06] NOTICE[28706] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 19 22:06:06] ERROR[28706] res_corosync.c: Failed to initialize cfg (6)
+[Nov 19 22:10:10] NOTICE[28736][C-00000000] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 20 11:08:38] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 20 11:08:38] NOTICE[2874] loader.c: 2 modules will be loaded.
+[Nov 20 11:08:38] NOTICE[2874] res_odbc.c: Connecting asterisk
+[Nov 20 11:08:38] NOTICE[2874] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 20 11:08:38] NOTICE[2874] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 20 11:08:38] NOTICE[2874] res_odbc.c: res_odbc loaded.
+[Nov 20 11:08:38] NOTICE[2874] config.c: Registered Config Engine odbc
+[Nov 20 11:08:38] NOTICE[2874] cdr.c: CDR simple logging enabled.
+[Nov 20 11:08:38] NOTICE[2874] loader.c: 227 modules will be loaded.
+[Nov 20 11:08:41] NOTICE[2874] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 20 11:08:41] NOTICE[2874] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 20 11:08:41] ERROR[2874] res_config_ldap.c: No directory URL or host found.
+[Nov 20 11:08:41] ERROR[2874] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 20 11:08:41] ERROR[2874] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 20 11:08:41] WARNING[2874] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 20 11:08:41] NOTICE[2874] config.c: Registered Config Engine pgsql
+[Nov 20 11:08:41] NOTICE[2874] config.c: Registered Config Engine curl
+[Nov 20 11:08:41] NOTICE[2874] config.c: Registered Config Engine sqlite3
+[Nov 20 11:08:42] NOTICE[2874] config.c: Registered Config Engine sqlite
+[Nov 20 11:08:42] ERROR[2874] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 20 11:08:42] NOTICE[2874] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 20 11:08:42] WARNING[2874] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 20 11:08:42] WARNING[2874] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 20 11:08:42] WARNING[2874] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 20 11:08:42] WARNING[2874] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 20 11:08:42] WARNING[2874] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 20 11:08:42] ERROR[2874] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 20 11:08:42] ERROR[2874] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 20 11:08:42] ERROR[2874] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 20 11:08:42] ERROR[2874] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 20 11:08:42] NOTICE[2874] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 20 11:08:42] NOTICE[2874] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 20 11:08:42] WARNING[2874] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 20 11:08:42] NOTICE[2874] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 20 11:08:42] NOTICE[2874] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 20 11:08:42] WARNING[2874] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 20 11:08:42] ERROR[2874] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: Starting AEL load process.
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 20 11:08:42] NOTICE[2874] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 20 11:08:42] ERROR[2874] res_corosync.c: Failed to initialize cfg (6)
+[Nov 20 11:11:41] NOTICE[2922] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 24 18:58:43] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 18:58:43] NOTICE[4785] loader.c: 2 modules will be loaded.
+[Nov 24 18:58:43] NOTICE[4785] res_odbc.c: Connecting asterisk
+[Nov 24 18:58:43] NOTICE[4785] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 18:58:43] NOTICE[4785] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 18:58:43] NOTICE[4785] res_odbc.c: res_odbc loaded.
+[Nov 24 18:58:43] NOTICE[4785] config.c: Registered Config Engine odbc
+[Nov 24 18:58:43] NOTICE[4785] cdr.c: CDR simple logging enabled.
+[Nov 24 18:58:43] NOTICE[4785] loader.c: 227 modules will be loaded.
+[Nov 24 18:58:46] NOTICE[4785] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 18:58:46] NOTICE[4785] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 18:58:46] ERROR[4785] res_config_ldap.c: No directory URL or host found.
+[Nov 24 18:58:46] ERROR[4785] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 18:58:46] ERROR[4785] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 18:58:46] WARNING[4785] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 18:58:46] NOTICE[4785] config.c: Registered Config Engine pgsql
+[Nov 24 18:58:46] NOTICE[4785] config.c: Registered Config Engine curl
+[Nov 24 18:58:46] NOTICE[4785] config.c: Registered Config Engine sqlite3
+[Nov 24 18:58:46] NOTICE[4785] config.c: Registered Config Engine sqlite
+[Nov 24 18:58:47] ERROR[4785] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 24 18:58:47] NOTICE[4785] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 18:58:47] WARNING[4785] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 18:58:47] WARNING[4785] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 18:58:47] WARNING[4785] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 18:58:47] WARNING[4785] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 18:58:47] WARNING[4785] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 18:58:47] ERROR[4785] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 18:58:47] ERROR[4785] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 18:58:47] ERROR[4785] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 18:58:47] ERROR[4785] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 18:58:47] NOTICE[4785] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 18:58:47] NOTICE[4785] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 18:58:47] WARNING[4785] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 18:58:47] NOTICE[4785] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 18:58:47] NOTICE[4785] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 18:58:47] WARNING[4785] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 18:58:47] ERROR[4785] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: Starting AEL load process.
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 18:58:47] NOTICE[4785] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 18:58:47] ERROR[4785] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:02:48] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:02:48] NOTICE[4936] loader.c: 2 modules will be loaded.
+[Nov 24 19:02:48] NOTICE[4936] res_odbc.c: Connecting asterisk
+[Nov 24 19:02:48] NOTICE[4936] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:02:48] NOTICE[4936] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:02:48] NOTICE[4936] res_odbc.c: res_odbc loaded.
+[Nov 24 19:02:48] NOTICE[4936] config.c: Registered Config Engine odbc
+[Nov 24 19:02:48] NOTICE[4936] cdr.c: CDR simple logging enabled.
+[Nov 24 19:02:48] NOTICE[4936] loader.c: 227 modules will be loaded.
+[Nov 24 19:02:48] NOTICE[4936] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:02:48] NOTICE[4936] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:02:48] ERROR[4936] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:02:48] ERROR[4936] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:02:48] ERROR[4936] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:02:48] WARNING[4936] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:02:48] NOTICE[4936] config.c: Registered Config Engine pgsql
+[Nov 24 19:02:48] NOTICE[4936] config.c: Registered Config Engine curl
+[Nov 24 19:02:48] NOTICE[4936] config.c: Registered Config Engine sqlite3
+[Nov 24 19:02:48] NOTICE[4936] config.c: Registered Config Engine sqlite
+[Nov 24 19:02:48] NOTICE[4936] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:02:48] WARNING[4936] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:02:48] WARNING[4936] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:02:48] WARNING[4936] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:02:48] WARNING[4936] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:02:48] WARNING[4936] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:02:48] ERROR[4936] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:02:48] ERROR[4936] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:02:48] ERROR[4936] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:02:48] ERROR[4936] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:02:48] NOTICE[4936] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:02:48] NOTICE[4936] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:02:48] WARNING[4936] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:02:48] NOTICE[4936] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:02:48] NOTICE[4936] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:02:48] WARNING[4936] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:02:48] ERROR[4936] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:02:48] NOTICE[4936] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:02:48] ERROR[4936] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:04:01] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:04:01] NOTICE[5060] loader.c: 2 modules will be loaded.
+[Nov 24 19:04:01] NOTICE[5060] res_odbc.c: Connecting asterisk
+[Nov 24 19:04:01] NOTICE[5060] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:04:01] NOTICE[5060] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:04:01] NOTICE[5060] res_odbc.c: res_odbc loaded.
+[Nov 24 19:04:01] NOTICE[5060] config.c: Registered Config Engine odbc
+[Nov 24 19:04:01] NOTICE[5060] cdr.c: CDR simple logging enabled.
+[Nov 24 19:04:01] NOTICE[5060] loader.c: 227 modules will be loaded.
+[Nov 24 19:04:01] NOTICE[5060] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:04:02] NOTICE[5060] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:04:02] ERROR[5060] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:04:02] ERROR[5060] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:04:02] ERROR[5060] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:04:02] WARNING[5060] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:04:02] NOTICE[5060] config.c: Registered Config Engine pgsql
+[Nov 24 19:04:02] NOTICE[5060] config.c: Registered Config Engine curl
+[Nov 24 19:04:02] NOTICE[5060] config.c: Registered Config Engine sqlite3
+[Nov 24 19:04:02] NOTICE[5060] config.c: Registered Config Engine sqlite
+[Nov 24 19:04:02] ERROR[5060] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 24 19:04:02] NOTICE[5060] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:04:02] WARNING[5060] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:04:02] WARNING[5060] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:04:02] WARNING[5060] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:04:02] WARNING[5060] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:04:02] WARNING[5060] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:04:02] ERROR[5060] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:04:02] ERROR[5060] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:04:02] ERROR[5060] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:04:02] ERROR[5060] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:04:02] NOTICE[5060] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:04:02] NOTICE[5060] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:04:02] WARNING[5060] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:04:02] NOTICE[5060] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:04:02] NOTICE[5060] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:04:02] WARNING[5060] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:04:02] ERROR[5060] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:04:02] NOTICE[5060] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:04:02] ERROR[5060] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:11:28] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:11:28] NOTICE[5318] loader.c: 2 modules will be loaded.
+[Nov 24 19:11:28] NOTICE[5318] res_odbc.c: Connecting asterisk
+[Nov 24 19:11:28] NOTICE[5318] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:11:28] NOTICE[5318] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:11:28] NOTICE[5318] res_odbc.c: res_odbc loaded.
+[Nov 24 19:11:28] NOTICE[5318] config.c: Registered Config Engine odbc
+[Nov 24 19:11:28] NOTICE[5318] cdr.c: CDR simple logging enabled.
+[Nov 24 19:11:28] NOTICE[5318] loader.c: 227 modules will be loaded.
+[Nov 24 19:11:28] NOTICE[5318] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:11:28] NOTICE[5318] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:11:28] ERROR[5318] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:11:28] ERROR[5318] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:11:28] ERROR[5318] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:11:28] WARNING[5318] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:11:28] NOTICE[5318] config.c: Registered Config Engine pgsql
+[Nov 24 19:11:28] NOTICE[5318] config.c: Registered Config Engine curl
+[Nov 24 19:11:28] NOTICE[5318] config.c: Registered Config Engine sqlite3
+[Nov 24 19:11:28] NOTICE[5318] config.c: Registered Config Engine sqlite
+[Nov 24 19:11:28] ERROR[5318] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 24 19:11:28] NOTICE[5318] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:11:28] WARNING[5318] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:11:28] WARNING[5318] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:11:28] WARNING[5318] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:11:28] WARNING[5318] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:11:28] WARNING[5318] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:11:28] ERROR[5318] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:11:28] ERROR[5318] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:11:28] ERROR[5318] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:11:28] ERROR[5318] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:11:28] NOTICE[5318] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:11:28] NOTICE[5318] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:11:28] WARNING[5318] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:11:28] NOTICE[5318] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:11:28] NOTICE[5318] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:11:28] WARNING[5318] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:11:28] ERROR[5318] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:11:28] NOTICE[5318] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:11:28] ERROR[5318] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:13:02] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:13:02] NOTICE[5403] loader.c: 2 modules will be loaded.
+[Nov 24 19:13:02] NOTICE[5403] res_odbc.c: Connecting asterisk
+[Nov 24 19:13:02] NOTICE[5403] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:13:02] NOTICE[5403] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:13:02] NOTICE[5403] res_odbc.c: res_odbc loaded.
+[Nov 24 19:13:02] NOTICE[5403] config.c: Registered Config Engine odbc
+[Nov 24 19:13:02] NOTICE[5403] cdr.c: CDR simple logging enabled.
+[Nov 24 19:13:02] NOTICE[5403] loader.c: 227 modules will be loaded.
+[Nov 24 19:13:02] NOTICE[5403] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:13:02] NOTICE[5403] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:13:02] ERROR[5403] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:13:02] ERROR[5403] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:13:02] ERROR[5403] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:13:02] WARNING[5403] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:13:02] NOTICE[5403] config.c: Registered Config Engine pgsql
+[Nov 24 19:13:02] NOTICE[5403] config.c: Registered Config Engine curl
+[Nov 24 19:13:02] NOTICE[5403] config.c: Registered Config Engine sqlite3
+[Nov 24 19:13:02] NOTICE[5403] config.c: Registered Config Engine sqlite
+[Nov 24 19:13:02] NOTICE[5403] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:13:02] WARNING[5403] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:13:02] WARNING[5403] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:13:02] WARNING[5403] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:13:02] WARNING[5403] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:13:02] WARNING[5403] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:13:02] ERROR[5403] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:13:02] ERROR[5403] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:13:02] ERROR[5403] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:13:02] ERROR[5403] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:13:02] NOTICE[5403] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:13:02] NOTICE[5403] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:13:02] WARNING[5403] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:13:02] NOTICE[5403] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:13:02] NOTICE[5403] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:13:02] WARNING[5403] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:13:02] ERROR[5403] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:02] NOTICE[5403] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:02] ERROR[5403] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:13:52] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:13:52] NOTICE[5465] loader.c: 2 modules will be loaded.
+[Nov 24 19:13:52] NOTICE[5465] res_odbc.c: Connecting asterisk
+[Nov 24 19:13:52] NOTICE[5465] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:13:52] NOTICE[5465] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:13:52] NOTICE[5465] res_odbc.c: res_odbc loaded.
+[Nov 24 19:13:52] NOTICE[5465] config.c: Registered Config Engine odbc
+[Nov 24 19:13:52] NOTICE[5465] cdr.c: CDR simple logging enabled.
+[Nov 24 19:13:52] NOTICE[5465] loader.c: 227 modules will be loaded.
+[Nov 24 19:13:52] NOTICE[5465] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:13:52] NOTICE[5465] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:13:52] ERROR[5465] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:13:52] ERROR[5465] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:13:52] ERROR[5465] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:13:52] WARNING[5465] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:13:52] NOTICE[5465] config.c: Registered Config Engine pgsql
+[Nov 24 19:13:52] NOTICE[5465] config.c: Registered Config Engine curl
+[Nov 24 19:13:52] NOTICE[5465] config.c: Registered Config Engine sqlite3
+[Nov 24 19:13:52] NOTICE[5465] config.c: Registered Config Engine sqlite
+[Nov 24 19:13:52] ERROR[5465] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 24 19:13:52] NOTICE[5465] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:13:52] WARNING[5465] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:13:52] WARNING[5465] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:13:52] WARNING[5465] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:13:52] WARNING[5465] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:13:52] WARNING[5465] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:13:52] ERROR[5465] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:13:52] ERROR[5465] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:13:52] ERROR[5465] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:13:52] ERROR[5465] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:13:52] NOTICE[5465] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:13:52] NOTICE[5465] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:13:52] WARNING[5465] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:13:52] NOTICE[5465] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:13:52] NOTICE[5465] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:13:52] WARNING[5465] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:13:52] ERROR[5465] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:52] NOTICE[5465] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:13:52] ERROR[5465] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:31:57] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 24 19:31:57] NOTICE[5558] loader.c: 2 modules will be loaded.
+[Nov 24 19:31:57] NOTICE[5558] res_odbc.c: Connecting asterisk
+[Nov 24 19:31:57] NOTICE[5558] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 24 19:31:57] NOTICE[5558] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 24 19:31:57] NOTICE[5558] res_odbc.c: res_odbc loaded.
+[Nov 24 19:31:57] NOTICE[5558] config.c: Registered Config Engine odbc
+[Nov 24 19:31:57] NOTICE[5558] cdr.c: CDR simple logging enabled.
+[Nov 24 19:31:57] NOTICE[5558] loader.c: 227 modules will be loaded.
+[Nov 24 19:31:57] NOTICE[5558] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 24 19:31:57] NOTICE[5558] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 24 19:31:57] ERROR[5558] res_config_ldap.c: No directory URL or host found.
+[Nov 24 19:31:57] ERROR[5558] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 24 19:31:57] ERROR[5558] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 24 19:31:57] WARNING[5558] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 24 19:31:57] NOTICE[5558] config.c: Registered Config Engine pgsql
+[Nov 24 19:31:57] NOTICE[5558] config.c: Registered Config Engine curl
+[Nov 24 19:31:57] NOTICE[5558] config.c: Registered Config Engine sqlite3
+[Nov 24 19:31:57] NOTICE[5558] config.c: Registered Config Engine sqlite
+[Nov 24 19:31:57] NOTICE[5558] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 24 19:31:57] WARNING[5558] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 24 19:31:57] WARNING[5558] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 24 19:31:57] WARNING[5558] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 24 19:31:57] WARNING[5558] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 24 19:31:57] WARNING[5558] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 24 19:31:57] ERROR[5558] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 24 19:31:57] ERROR[5558] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 24 19:31:57] ERROR[5558] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 24 19:31:57] ERROR[5558] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 24 19:31:57] NOTICE[5558] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 24 19:31:57] NOTICE[5558] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 24 19:31:57] WARNING[5558] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 24 19:31:57] NOTICE[5558] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 24 19:31:57] NOTICE[5558] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 24 19:31:57] WARNING[5558] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 24 19:31:57] ERROR[5558] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: Starting AEL load process.
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:31:57] NOTICE[5558] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 24 19:31:57] ERROR[5558] res_corosync.c: Failed to initialize cfg (6)
+[Nov 24 19:37:01] NOTICE[5588][C-00000000] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 26 17:36:26] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 26 17:36:26] NOTICE[4737] loader.c: 2 modules will be loaded.
+[Nov 26 17:36:27] NOTICE[4737] res_odbc.c: Connecting asterisk
+[Nov 26 17:36:27] NOTICE[4737] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 26 17:36:27] NOTICE[4737] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 26 17:36:27] NOTICE[4737] res_odbc.c: res_odbc loaded.
+[Nov 26 17:36:27] NOTICE[4737] config.c: Registered Config Engine odbc
+[Nov 26 17:36:27] NOTICE[4737] cdr.c: CDR simple logging enabled.
+[Nov 26 17:36:27] NOTICE[4737] loader.c: 227 modules will be loaded.
+[Nov 26 17:36:31] NOTICE[4737] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 26 17:36:31] NOTICE[4737] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 26 17:36:31] ERROR[4737] res_config_ldap.c: No directory URL or host found.
+[Nov 26 17:36:31] ERROR[4737] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 26 17:36:31] ERROR[4737] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 26 17:36:31] WARNING[4737] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 26 17:36:31] NOTICE[4737] config.c: Registered Config Engine pgsql
+[Nov 26 17:36:31] NOTICE[4737] config.c: Registered Config Engine curl
+[Nov 26 17:36:31] NOTICE[4737] config.c: Registered Config Engine sqlite3
+[Nov 26 17:36:31] NOTICE[4737] config.c: Registered Config Engine sqlite
+[Nov 26 17:36:32] ERROR[4737] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 26 17:36:32] NOTICE[4737] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 26 17:36:32] WARNING[4737] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 26 17:36:32] WARNING[4737] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 26 17:36:32] WARNING[4737] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 26 17:36:32] WARNING[4737] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 26 17:36:32] WARNING[4737] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 26 17:36:32] ERROR[4737] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 26 17:36:32] ERROR[4737] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 26 17:36:32] ERROR[4737] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 26 17:36:32] ERROR[4737] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 26 17:36:32] NOTICE[4737] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 26 17:36:32] NOTICE[4737] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 26 17:36:32] WARNING[4737] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 26 17:36:32] NOTICE[4737] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 26 17:36:32] NOTICE[4737] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 26 17:36:32] WARNING[4737] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 26 17:36:32] ERROR[4737] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: Starting AEL load process.
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 26 17:36:32] NOTICE[4737] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 26 17:36:32] ERROR[4737] res_corosync.c: Failed to initialize cfg (6)
+[Nov 26 17:43:19] NOTICE[4774] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 26 17:45:13] WARNING[4774] chan_sip.c: Retransmission timeout reached on transmission 827072251@127.0.0.1 for seqno 589 (Critical Response) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
+[Nov 27 11:06:21] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 27 11:06:21] NOTICE[2251] loader.c: 2 modules will be loaded.
+[Nov 27 11:06:21] NOTICE[2251] res_odbc.c: Connecting asterisk
+[Nov 27 11:06:21] NOTICE[2251] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 27 11:06:21] NOTICE[2251] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 27 11:06:21] NOTICE[2251] res_odbc.c: res_odbc loaded.
+[Nov 27 11:06:21] NOTICE[2251] config.c: Registered Config Engine odbc
+[Nov 27 11:06:22] NOTICE[2251] cdr.c: CDR simple logging enabled.
+[Nov 27 11:06:22] NOTICE[2251] loader.c: 227 modules will be loaded.
+[Nov 27 11:06:26] NOTICE[2251] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 11:06:26] NOTICE[2251] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 11:06:26] ERROR[2251] res_config_ldap.c: No directory URL or host found.
+[Nov 27 11:06:26] ERROR[2251] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 11:06:26] ERROR[2251] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 27 11:06:26] WARNING[2251] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 27 11:06:26] NOTICE[2251] config.c: Registered Config Engine pgsql
+[Nov 27 11:06:26] NOTICE[2251] config.c: Registered Config Engine curl
+[Nov 27 11:06:26] NOTICE[2251] config.c: Registered Config Engine sqlite3
+[Nov 27 11:06:26] NOTICE[2251] config.c: Registered Config Engine sqlite
+[Nov 27 11:06:26] NOTICE[2251] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 11:06:26] WARNING[2251] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 27 11:06:26] WARNING[2251] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 27 11:06:26] WARNING[2251] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 27 11:06:26] WARNING[2251] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 27 11:06:26] WARNING[2251] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 27 11:06:27] ERROR[2251] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 27 11:06:27] ERROR[2251] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 27 11:06:27] ERROR[2251] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 27 11:06:27] ERROR[2251] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 27 11:06:27] NOTICE[2251] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 27 11:06:27] NOTICE[2251] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 11:06:27] WARNING[2251] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 11:06:27] NOTICE[2251] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 11:06:27] NOTICE[2251] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 11:06:27] WARNING[2251] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 11:06:27] ERROR[2251] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: Starting AEL load process.
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 27 11:06:27] NOTICE[2251] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 27 11:06:27] ERROR[2251] res_corosync.c: Failed to initialize cfg (6)
+[Nov 27 11:11:21] NOTICE[2295] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 28 13:12:03] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 28 13:12:04] NOTICE[3252] loader.c: 2 modules will be loaded.
+[Nov 28 13:12:04] NOTICE[3252] res_odbc.c: Connecting asterisk
+[Nov 28 13:12:04] NOTICE[3252] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 28 13:12:04] NOTICE[3252] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 28 13:12:04] NOTICE[3252] res_odbc.c: res_odbc loaded.
+[Nov 28 13:12:04] NOTICE[3252] config.c: Registered Config Engine odbc
+[Nov 28 13:12:04] NOTICE[3252] cdr.c: CDR simple logging enabled.
+[Nov 28 13:12:04] NOTICE[3252] loader.c: 227 modules will be loaded.
+[Nov 28 13:12:07] NOTICE[3252] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 28 13:12:07] NOTICE[3252] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 28 13:12:07] ERROR[3252] res_config_ldap.c: No directory URL or host found.
+[Nov 28 13:12:07] ERROR[3252] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 28 13:12:07] ERROR[3252] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 28 13:12:07] WARNING[3252] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 28 13:12:07] NOTICE[3252] config.c: Registered Config Engine pgsql
+[Nov 28 13:12:07] NOTICE[3252] config.c: Registered Config Engine curl
+[Nov 28 13:12:07] NOTICE[3252] config.c: Registered Config Engine sqlite3
+[Nov 28 13:12:07] NOTICE[3252] config.c: Registered Config Engine sqlite
+[Nov 28 13:12:08] ERROR[3252] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 28 13:12:08] NOTICE[3252] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 28 13:12:08] WARNING[3252] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 28 13:12:08] WARNING[3252] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 28 13:12:08] WARNING[3252] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 28 13:12:08] WARNING[3252] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 28 13:12:08] WARNING[3252] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 28 13:12:08] ERROR[3252] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 28 13:12:08] ERROR[3252] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 28 13:12:08] ERROR[3252] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 28 13:12:08] ERROR[3252] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 28 13:12:08] NOTICE[3252] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 28 13:12:08] NOTICE[3252] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 28 13:12:08] WARNING[3252] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 28 13:12:08] NOTICE[3252] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 28 13:12:08] NOTICE[3252] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 28 13:12:08] WARNING[3252] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 28 13:12:08] ERROR[3252] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: Starting AEL load process.
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 13:12:08] NOTICE[3252] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 13:12:08] ERROR[3252] res_corosync.c: Failed to initialize cfg (6)
+[Nov 28 13:12:26] NOTICE[3300] chan_sip.c: Registration from '<sip:103@192.168.1.36>' failed for '192.168.1.33:5060' - Wrong password
+[Nov 28 13:12:26] NOTICE[3300] chan_sip.c: Registration from '<sip:103@192.168.1.36>' failed for '192.168.1.33:5060' - Wrong password
+[Nov 28 13:12:26] NOTICE[3300] chan_sip.c: Registration from '<sip:103@192.168.1.36>' failed for '192.168.1.33:5060' - Wrong password
+[Nov 28 13:12:27] NOTICE[3300] chan_sip.c: Registration from '<sip:103@192.168.1.36>' failed for '192.168.1.33:5060' - Wrong password
+[Nov 28 13:34:44] NOTICE[3300] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 28 13:35:18] NOTICE[3300] chan_sip.c: Peer '103' is now Reachable. (2ms / 2000ms)
+[Nov 28 13:35:18] NOTICE[3300] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 28 16:44:58] NOTICE[3311] chan_iax2.c: Ignoring bindport on reload
+[Nov 28 16:44:58] NOTICE[3311] chan_iax2.c: Ignoring bindaddr on reload
+[Nov 28 16:45:15] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 28 16:45:15] NOTICE[7785] loader.c: 2 modules will be loaded.
+[Nov 28 16:45:15] NOTICE[7785] res_odbc.c: Connecting asterisk
+[Nov 28 16:45:15] NOTICE[7785] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 28 16:45:15] NOTICE[7785] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 28 16:45:15] NOTICE[7785] res_odbc.c: res_odbc loaded.
+[Nov 28 16:45:15] NOTICE[7785] config.c: Registered Config Engine odbc
+[Nov 28 16:45:15] NOTICE[7785] cdr.c: CDR simple logging enabled.
+[Nov 28 16:45:15] NOTICE[7785] loader.c: 227 modules will be loaded.
+[Nov 28 16:45:15] NOTICE[7785] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 28 16:45:15] NOTICE[7785] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 28 16:45:15] ERROR[7785] res_config_ldap.c: No directory URL or host found.
+[Nov 28 16:45:15] ERROR[7785] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 28 16:45:15] ERROR[7785] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 28 16:45:15] WARNING[7785] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 28 16:45:15] NOTICE[7785] config.c: Registered Config Engine pgsql
+[Nov 28 16:45:15] NOTICE[7785] config.c: Registered Config Engine curl
+[Nov 28 16:45:15] NOTICE[7785] config.c: Registered Config Engine sqlite3
+[Nov 28 16:45:15] NOTICE[7785] config.c: Registered Config Engine sqlite
+[Nov 28 16:45:15] NOTICE[7785] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 28 16:45:15] WARNING[7785] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 28 16:45:15] WARNING[7785] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 28 16:45:15] WARNING[7785] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 28 16:45:15] WARNING[7785] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 28 16:45:15] WARNING[7785] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 28 16:45:15] NOTICE[7785] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 28 16:45:15] ERROR[7785] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 28 16:45:15] ERROR[7785] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 28 16:45:15] ERROR[7785] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 28 16:45:15] ERROR[7785] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 28 16:45:15] NOTICE[7815] chan_sip.c: Peer '103' is now Reachable. (3ms / 2000ms)
+[Nov 28 16:45:15] NOTICE[7785] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 28 16:45:15] NOTICE[7785] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 28 16:45:15] WARNING[7785] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 28 16:45:15] NOTICE[7785] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 28 16:45:15] NOTICE[7785] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 28 16:45:15] WARNING[7785] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 28 16:45:15] ERROR[7785] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: Starting AEL load process.
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 16:45:15] NOTICE[7785] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 16:45:15] ERROR[7785] res_corosync.c: Failed to initialize cfg (6)
+[Nov 28 17:38:37] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 28 17:38:37] NOTICE[2961] loader.c: 2 modules will be loaded.
+[Nov 28 17:38:37] NOTICE[2961] res_odbc.c: Connecting asterisk
+[Nov 28 17:38:37] NOTICE[2961] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 28 17:38:37] NOTICE[2961] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 28 17:38:37] NOTICE[2961] res_odbc.c: res_odbc loaded.
+[Nov 28 17:38:37] NOTICE[2961] config.c: Registered Config Engine odbc
+[Nov 28 17:38:37] NOTICE[2961] cdr.c: CDR simple logging enabled.
+[Nov 28 17:38:37] NOTICE[2961] loader.c: 227 modules will be loaded.
+[Nov 28 17:38:40] NOTICE[2961] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 28 17:38:40] NOTICE[2961] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 28 17:38:40] ERROR[2961] res_config_ldap.c: No directory URL or host found.
+[Nov 28 17:38:40] ERROR[2961] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 28 17:38:40] ERROR[2961] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 28 17:38:40] WARNING[2961] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 28 17:38:40] NOTICE[2961] config.c: Registered Config Engine pgsql
+[Nov 28 17:38:40] NOTICE[2961] config.c: Registered Config Engine curl
+[Nov 28 17:38:40] NOTICE[2961] config.c: Registered Config Engine sqlite3
+[Nov 28 17:38:40] NOTICE[2961] config.c: Registered Config Engine sqlite
+[Nov 28 17:38:40] ERROR[2961] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 28 17:38:40] NOTICE[2961] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 28 17:38:41] WARNING[2961] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 28 17:38:41] WARNING[2961] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 28 17:38:41] WARNING[2961] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 28 17:38:41] WARNING[2961] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 28 17:38:41] WARNING[2961] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 28 17:38:41] NOTICE[2961] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 28 17:38:41] ERROR[2961] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 28 17:38:41] ERROR[2961] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 28 17:38:41] ERROR[2961] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 28 17:38:41] ERROR[2961] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 28 17:38:41] NOTICE[2993] chan_sip.c: Peer '103' is now Reachable. (2ms / 2000ms)
+[Nov 28 17:38:41] NOTICE[2961] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 28 17:38:41] NOTICE[2961] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 28 17:38:41] WARNING[2961] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 28 17:38:41] NOTICE[2961] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 28 17:38:41] NOTICE[2961] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 28 17:38:41] WARNING[2961] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 28 17:38:41] ERROR[2961] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: Starting AEL load process.
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 17:38:41] NOTICE[2961] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 28 17:38:41] ERROR[2961] res_corosync.c: Failed to initialize cfg (6)
+[Nov 30 13:12:30] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 30 13:12:30] NOTICE[2390] loader.c: 2 modules will be loaded.
+[Nov 30 13:12:30] NOTICE[2390] res_odbc.c: Connecting asterisk
+[Nov 30 13:12:30] NOTICE[2390] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 30 13:12:30] NOTICE[2390] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 30 13:12:30] NOTICE[2390] res_odbc.c: res_odbc loaded.
+[Nov 30 13:12:30] NOTICE[2390] config.c: Registered Config Engine odbc
+[Nov 30 13:12:30] NOTICE[2390] cdr.c: CDR simple logging enabled.
+[Nov 30 13:12:30] NOTICE[2390] loader.c: 227 modules will be loaded.
+[Nov 30 13:12:43] NOTICE[2390] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 30 13:12:43] NOTICE[2390] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 30 13:12:43] ERROR[2390] res_config_ldap.c: No directory URL or host found.
+[Nov 30 13:12:43] ERROR[2390] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 30 13:12:43] ERROR[2390] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 30 13:12:43] WARNING[2390] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 30 13:12:43] NOTICE[2390] config.c: Registered Config Engine pgsql
+[Nov 30 13:12:43] NOTICE[2390] config.c: Registered Config Engine curl
+[Nov 30 13:12:43] NOTICE[2390] config.c: Registered Config Engine sqlite3
+[Nov 30 13:12:43] NOTICE[2390] config.c: Registered Config Engine sqlite
+[Nov 30 13:12:43] ERROR[2390] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 30 13:12:43] NOTICE[2390] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 30 13:12:43] WARNING[2390] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 30 13:12:43] WARNING[2390] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 30 13:12:43] WARNING[2390] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 30 13:12:43] WARNING[2390] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 30 13:12:43] WARNING[2390] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 30 13:12:43] NOTICE[2390] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 30 13:12:43] ERROR[2390] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 30 13:12:43] ERROR[2390] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 30 13:12:43] ERROR[2390] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 30 13:12:43] ERROR[2390] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 30 13:12:43] NOTICE[2390] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 30 13:12:43] NOTICE[2390] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 30 13:12:43] WARNING[2390] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 30 13:12:43] NOTICE[2390] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 30 13:12:43] NOTICE[2390] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 30 13:12:43] WARNING[2390] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 30 13:12:43] ERROR[2390] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: Starting AEL load process.
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 13:12:44] NOTICE[2390] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 13:12:44] ERROR[2390] res_corosync.c: Failed to initialize cfg (6)
+[Nov 30 13:12:47] NOTICE[2422] chan_sip.c: Peer '103' is now UNREACHABLE!  Last qualify: 0
+[Nov 30 13:16:09] NOTICE[2422] chan_sip.c: Registration from '"103"<sip:103@192.168.1.35;transport=UDP>' failed for '192.168.1.33:58880' - Wrong password
+[Nov 30 13:16:09] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:16:56] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:16:56] NOTICE[2422] chan_sip.c: Peer '103' is now Reachable. (5ms / 2000ms)
+[Nov 30 13:16:56] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:17:05] NOTICE[2422][C-00000000] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension 'echo' rejected because extension not found in context 'internal'.
+[Nov 30 13:17:20] NOTICE[2422][C-00000001] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '60' rejected because extension not found in context 'internal'.
+[Nov 30 13:17:28] NOTICE[2422][C-00000002] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '600' rejected because extension not found in context 'internal'.
+[Nov 30 13:19:27] NOTICE[2422][C-00000003] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '600' rejected because extension not found in context 'internal'.
+[Nov 30 13:21:12] WARNING[2502][C-00000004] pbx.c: Channel 'SIP/103-00000000' sent to invalid extension but no invalid handler: context,exten,priority=outbound-trunk,600,1
+[Nov 30 13:22:47] WARNING[2403] pbx_config.c: Can't use 'next' priority on the first entry at line 870 of extensions.conf!
+[Nov 30 13:22:55] NOTICE[2422][C-00000005] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '68' rejected because extension not found in context 'rsfm'.
+[Nov 30 13:23:23] WARNING[2403] pbx_config.c: Can't use 'next' priority on the first entry at line 870 of extensions.conf!
+[Nov 30 13:23:28] NOTICE[2422][C-00000006] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '600' rejected because extension not found in context 'rsfm'.
+[Nov 30 13:24:25] NOTICE[2508][C-00000007] channel.c: Dropping incompatible voice frame on SIP/103-00000001 of format ulaw since our native format has changed to (gsm)
+[Nov 30 13:24:34] NOTICE[2422][C-00000008] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension '60' rejected because extension not found in context 'rsfm'.
+[Nov 30 13:24:39] NOTICE[2511][C-00000009] channel.c: Dropping incompatible voice frame on SIP/103-00000002 of format ulaw since our native format has changed to (gsm)
+[Nov 30 13:25:34] NOTICE[2514][C-0000000a] channel.c: Dropping incompatible voice frame on SIP/103-00000003 of format ulaw since our native format has changed to (gsm)
+[Nov 30 13:25:48] NOTICE[2422][C-0000000b] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension 'echo' rejected because extension not found in context 'rsfm'.
+[Nov 30 13:25:50] NOTICE[2422][C-0000000c] chan_sip.c: Call from '103' (192.168.1.33:58880) to extension 'test' rejected because extension not found in context 'rsfm'.
+[Nov 30 13:41:16] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:41:16] NOTICE[2422] chan_sip.c: Peer '103' is now Reachable. (9ms / 2000ms)
+[Nov 30 13:41:16] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:41:39] NOTICE[3114][C-0000000d] channel.c: Dropping incompatible voice frame on SIP/103-00000004 of format ulaw since our native format has changed to (gsm)
+[Nov 30 13:51:42] NOTICE[2422] chan_sip.c: Peer '104' is now Reachable. (8ms / 2000ms)
+[Nov 30 13:51:42] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 104
+[Nov 30 13:51:43] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 104
+[Nov 30 13:52:00] NOTICE[2422] chan_sip.c: Peer '103' is now Reachable. (2ms / 2000ms)
+[Nov 30 13:52:00] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 13:52:51] WARNING[2422] chan_sip.c: Retransmission timeout reached on transmission 4255f8c52d5fc12619051a380ae774ba@127.0.0.1:5060 for seqno 102 (Critical Request) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
+[Nov 30 13:52:51] WARNING[2422] chan_sip.c: Hanging up call 4255f8c52d5fc12619051a380ae774ba@127.0.0.1:5060 - no reply to our critical packet (see https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions).
+[Nov 30 13:53:49] WARNING[2422] chan_sip.c: Retransmission timeout reached on transmission 7ffac8764bd04c0905ff00ec7cd56138@127.0.0.1:5060 for seqno 102 (Critical Request) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
+[Nov 30 13:54:35] WARNING[2422] chan_sip.c: Retransmission timeout reached on transmission 57f96e2223a8192635aac95e4020cd2c@192.168.1.35:5060 for seqno 102 (Critical Request) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
+[Nov 30 13:58:11] NOTICE[2422] chan_sip.c: Peer '103' is now Reachable. (13ms / 2000ms)
+[Nov 30 13:58:11] NOTICE[2422] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 14:01:16] NOTICE[2422] chan_sip.c: Peer '103' is now UNREACHABLE!  Last qualify: 3
+[Nov 30 16:29:31] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 30 16:29:31] NOTICE[3567] loader.c: 2 modules will be loaded.
+[Nov 30 16:29:31] NOTICE[3567] res_odbc.c: Connecting asterisk
+[Nov 30 16:29:31] NOTICE[3567] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 30 16:29:31] NOTICE[3567] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 30 16:29:31] NOTICE[3567] res_odbc.c: res_odbc loaded.
+[Nov 30 16:29:31] NOTICE[3567] config.c: Registered Config Engine odbc
+[Nov 30 16:29:31] NOTICE[3567] cdr.c: CDR simple logging enabled.
+[Nov 30 16:29:31] NOTICE[3567] loader.c: 227 modules will be loaded.
+[Nov 30 16:29:32] NOTICE[3567] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 30 16:29:32] NOTICE[3567] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 30 16:29:32] ERROR[3567] res_config_ldap.c: No directory URL or host found.
+[Nov 30 16:29:32] ERROR[3567] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 30 16:29:32] ERROR[3567] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 30 16:29:32] WARNING[3567] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 30 16:29:32] NOTICE[3567] config.c: Registered Config Engine pgsql
+[Nov 30 16:29:32] NOTICE[3567] config.c: Registered Config Engine curl
+[Nov 30 16:29:32] NOTICE[3567] config.c: Registered Config Engine sqlite3
+[Nov 30 16:29:32] NOTICE[3567] config.c: Registered Config Engine sqlite
+[Nov 30 16:29:32] ERROR[3567] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Nov 30 16:29:32] NOTICE[3567] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 30 16:29:32] WARNING[3567] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 30 16:29:32] WARNING[3567] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 30 16:29:32] WARNING[3567] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 30 16:29:32] WARNING[3567] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 30 16:29:32] WARNING[3567] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 30 16:29:32] NOTICE[3567] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 30 16:29:32] ERROR[3567] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 30 16:29:32] ERROR[3567] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 30 16:29:32] ERROR[3567] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 30 16:29:32] ERROR[3567] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 30 16:29:32] NOTICE[3567] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 30 16:29:32] NOTICE[3567] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 30 16:29:32] WARNING[3567] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 30 16:29:32] NOTICE[3567] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 30 16:29:32] NOTICE[3567] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 30 16:29:32] WARNING[3567] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 30 16:29:32] ERROR[3567] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: Starting AEL load process.
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:29:32] NOTICE[3567] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:29:32] ERROR[3567] res_corosync.c: Failed to initialize cfg (6)
+[Nov 30 16:29:36] NOTICE[3597] chan_sip.c: Peer '103' is now UNREACHABLE!  Last qualify: 0
+[Nov 30 16:31:14] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Nov 30 16:31:14] NOTICE[3760] loader.c: 2 modules will be loaded.
+[Nov 30 16:31:14] NOTICE[3760] res_odbc.c: Connecting asterisk
+[Nov 30 16:31:14] NOTICE[3760] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Nov 30 16:31:14] NOTICE[3760] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Nov 30 16:31:14] NOTICE[3760] res_odbc.c: res_odbc loaded.
+[Nov 30 16:31:14] NOTICE[3760] config.c: Registered Config Engine odbc
+[Nov 30 16:31:14] NOTICE[3760] cdr.c: CDR simple logging enabled.
+[Nov 30 16:31:14] NOTICE[3760] loader.c: 227 modules will be loaded.
+[Nov 30 16:31:14] NOTICE[3760] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 30 16:31:14] NOTICE[3760] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 30 16:31:14] ERROR[3760] res_config_ldap.c: No directory URL or host found.
+[Nov 30 16:31:14] ERROR[3760] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 30 16:31:14] ERROR[3760] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Nov 30 16:31:14] WARNING[3760] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Nov 30 16:31:14] NOTICE[3760] config.c: Registered Config Engine pgsql
+[Nov 30 16:31:14] NOTICE[3760] config.c: Registered Config Engine curl
+[Nov 30 16:31:14] NOTICE[3760] config.c: Registered Config Engine sqlite3
+[Nov 30 16:31:14] NOTICE[3760] config.c: Registered Config Engine sqlite
+[Nov 30 16:31:14] NOTICE[3760] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 30 16:31:14] WARNING[3760] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Nov 30 16:31:14] WARNING[3760] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Nov 30 16:31:14] WARNING[3760] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Nov 30 16:31:14] WARNING[3760] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Nov 30 16:31:14] WARNING[3760] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Nov 30 16:31:14] NOTICE[3760] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Nov 30 16:31:14] ERROR[3760] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Nov 30 16:31:14] ERROR[3760] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Nov 30 16:31:14] ERROR[3760] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Nov 30 16:31:14] ERROR[3760] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Nov 30 16:31:14] NOTICE[3760] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Nov 30 16:31:14] NOTICE[3760] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 30 16:31:14] WARNING[3760] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 30 16:31:14] NOTICE[3760] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 30 16:31:14] NOTICE[3760] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 30 16:31:14] WARNING[3760] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 30 16:31:14] ERROR[3760] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: Starting AEL load process.
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:31:14] NOTICE[3760] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Nov 30 16:31:14] ERROR[3760] res_corosync.c: Failed to initialize cfg (6)
+[Nov 30 16:31:18] NOTICE[3791] chan_sip.c: Peer '103' is now UNREACHABLE!  Last qualify: 0
+[Nov 30 16:34:29] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:34:30] NOTICE[3791] chan_sip.c: Peer '103' is now Reachable. (13ms / 2000ms)
+[Nov 30 16:34:30] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:34:56] NOTICE[3791][C-00000000] chan_sip.c: Call from '103' (192.168.1.33:4566) to extension '2001' rejected because extension not found in context 'rsfm'.
+[Nov 30 16:37:25] NOTICE[3791][C-00000003] chan_sip.c: Call from 'IMSI214040106742778' (127.0.0.1:5062) to extension '103' rejected because extension not found in context 'phones'.
+[Nov 30 16:40:30] NOTICE[3791][C-00000006] chan_sip.c: Call from 'IMSI214040106742778' (127.0.0.1:5062) to extension '103' rejected because extension not found in context 'phones'.
+[Nov 30 16:42:23] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:42:23] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:44:42] NOTICE[3791] chan_sip.c: Peer '103' is now UNREACHABLE!  Last qualify: 1
+[Nov 30 16:44:48] ERROR[3791] chan_sip.c: Peer '103' is trying to register, but not configured as host=dynamic
+[Nov 30 16:44:48] NOTICE[3791] chan_sip.c: Registration from '"103"<sip:103@192.168.1.35;transport=UDP>' failed for '192.168.1.33:4566' - Peer is not supposed to register
+[Nov 30 16:44:48] ERROR[3791] chan_sip.c: Peer '103' is trying to register, but not configured as host=dynamic
+[Nov 30 16:44:48] NOTICE[3791] chan_sip.c: Registration from '"103"<sip:103@192.168.1.35;transport=UDP>' failed for '192.168.1.33:4566' - Peer is not supposed to register
+[Nov 30 16:45:34] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:45:34] ERROR[3791] chan_sip.c: Peer '103' is trying to register, but not configured as host=dynamic
+[Nov 30 16:45:34] NOTICE[3791] chan_sip.c: Registration from '"103"<sip:103@192.168.1.35;transport=UDP>' failed for '192.168.1.33:4566' - Peer is not supposed to register
+[Nov 30 16:45:34] ERROR[3791] chan_sip.c: Peer '103' is trying to register, but not configured as host=dynamic
+[Nov 30 16:45:34] NOTICE[3791] chan_sip.c: Registration from '"103"<sip:103@192.168.1.35;transport=UDP>' failed for '192.168.1.33:4566' - Peer is not supposed to register
+[Nov 30 16:47:24] NOTICE[3791] chan_sip.c: Peer '103' is now Reachable. (6ms / 2000ms)
+[Nov 30 16:47:24] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:47:24] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:49:29] ERROR[3791] netsock2.c: getaddrinfo("static", "(null)", ...): No address associated with hostname
+[Nov 30 16:49:29] WARNING[3791] acl.c: Unable to lookup 'static'
+[Nov 30 16:51:50] NOTICE[3791] chan_sip.c: Peer '103' is now Reachable. (7ms / 2000ms)
+[Nov 30 16:52:46] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Nov 30 16:52:47] NOTICE[3791] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:07:16] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Dec  4 11:07:17] NOTICE[2401] loader.c: 2 modules will be loaded.
+[Dec  4 11:07:17] NOTICE[2401] res_odbc.c: Connecting asterisk
+[Dec  4 11:07:17] NOTICE[2401] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Dec  4 11:07:17] NOTICE[2401] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Dec  4 11:07:17] NOTICE[2401] res_odbc.c: res_odbc loaded.
+[Dec  4 11:07:17] NOTICE[2401] config.c: Registered Config Engine odbc
+[Dec  4 11:07:17] NOTICE[2401] cdr.c: CDR simple logging enabled.
+[Dec  4 11:07:17] NOTICE[2401] loader.c: 227 modules will be loaded.
+[Dec  4 11:07:20] NOTICE[2401] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Dec  4 11:07:20] NOTICE[2401] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Dec  4 11:07:20] ERROR[2401] res_config_ldap.c: No directory URL or host found.
+[Dec  4 11:07:20] ERROR[2401] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Dec  4 11:07:20] ERROR[2401] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Dec  4 11:07:20] WARNING[2401] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Dec  4 11:07:20] NOTICE[2401] config.c: Registered Config Engine pgsql
+[Dec  4 11:07:20] NOTICE[2401] config.c: Registered Config Engine curl
+[Dec  4 11:07:20] NOTICE[2401] config.c: Registered Config Engine sqlite3
+[Dec  4 11:07:20] NOTICE[2401] config.c: Registered Config Engine sqlite
+[Dec  4 11:07:21] ERROR[2401] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Dec  4 11:07:21] NOTICE[2401] chan_skinny.c: Configuring skinny from skinny.conf
+[Dec  4 11:07:21] WARNING[2401] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Dec  4 11:07:21] WARNING[2401] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Dec  4 11:07:21] WARNING[2401] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Dec  4 11:07:21] WARNING[2401] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Dec  4 11:07:21] WARNING[2401] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Dec  4 11:07:21] NOTICE[2401] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Dec  4 11:07:21] ERROR[2401] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Dec  4 11:07:21] ERROR[2401] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Dec  4 11:07:21] ERROR[2401] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Dec  4 11:07:21] ERROR[2401] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Dec  4 11:07:21] NOTICE[2401] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Dec  4 11:07:21] NOTICE[2401] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Dec  4 11:07:21] WARNING[2401] cel_tds.c: cel_tds module had config problems; declining load
+[Dec  4 11:07:21] NOTICE[2401] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Dec  4 11:07:21] NOTICE[2401] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Dec  4 11:07:21] WARNING[2401] cel_pgsql.c: CEL pgsql config file missing global section.
+[Dec  4 11:07:21] ERROR[2401] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: Starting AEL load process.
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:07:21] NOTICE[2401] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:07:21] ERROR[2401] res_corosync.c: Failed to initialize cfg (6)
+[Dec  4 11:14:58] Asterisk 11.6.0 built by gabriel @ gabriel-laptop on a x86_64 running Linux on 2013-11-11 22:51:51 UTC
+[Dec  4 11:14:58] NOTICE[3352] loader.c: 2 modules will be loaded.
+[Dec  4 11:14:58] NOTICE[3352] res_odbc.c: Connecting asterisk
+[Dec  4 11:14:58] NOTICE[3352] res_odbc.c: res_odbc: Connected to asterisk [asterisk]
+[Dec  4 11:14:58] NOTICE[3352] res_odbc.c: Registered ODBC class 'asterisk' dsn->[asterisk]
+[Dec  4 11:14:58] NOTICE[3352] res_odbc.c: res_odbc loaded.
+[Dec  4 11:14:58] NOTICE[3352] config.c: Registered Config Engine odbc
+[Dec  4 11:14:58] NOTICE[3352] cdr.c: CDR simple logging enabled.
+[Dec  4 11:14:58] NOTICE[3352] loader.c: 227 modules will be loaded.
+[Dec  4 11:14:58] NOTICE[3352] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Dec  4 11:14:58] NOTICE[3352] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Dec  4 11:14:58] ERROR[3352] res_config_ldap.c: No directory URL or host found.
+[Dec  4 11:14:58] ERROR[3352] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Dec  4 11:14:58] ERROR[3352] res_config_pgsql.c: PostgreSQL RealTime: Failed to connect database asterisk on 127.0.0.1: 
+[Dec  4 11:14:58] WARNING[3352] res_config_pgsql.c: PostgreSQL RealTime: Couldn't establish connection. Check debug.
+[Dec  4 11:14:58] NOTICE[3352] config.c: Registered Config Engine pgsql
+[Dec  4 11:14:58] NOTICE[3352] config.c: Registered Config Engine curl
+[Dec  4 11:14:58] NOTICE[3352] config.c: Registered Config Engine sqlite3
+[Dec  4 11:14:58] NOTICE[3352] config.c: Registered Config Engine sqlite
+[Dec  4 11:14:58] ERROR[3352] res_timing_dahdi.c: Asterisk has detected a problem with your DAHDI configuration and will shutdown for your protection.  You have options:
+	1. You only have to compile DAHDI support into Asterisk if you need it.  One option is to recompile without DAHDI support.
+	2. You only have to load DAHDI drivers if you want to take advantage of DAHDI services.  One option is to unload DAHDI modules if you don't need them.
+	3. If you need DAHDI services, you must correctly configure DAHDI.
+For more information on Asterisk timing modules, including ways to potentially fix this problem, please see https://wiki.asterisk.org/wiki/display/AST/Timing+Interfaces
+[Dec  4 11:14:58] NOTICE[3352] chan_skinny.c: Configuring skinny from skinny.conf
+[Dec  4 11:14:58] WARNING[3352] chan_dahdi.c: Ignoring any changes to 'userbase' (on reload) at line 23.
+[Dec  4 11:14:58] WARNING[3352] chan_dahdi.c: Ignoring any changes to 'vmsecret' (on reload) at line 31.
+[Dec  4 11:14:58] WARNING[3352] chan_dahdi.c: Ignoring any changes to 'hassip' (on reload) at line 35.
+[Dec  4 11:14:58] WARNING[3352] chan_dahdi.c: Ignoring any changes to 'hasiax' (on reload) at line 39.
+[Dec  4 11:14:58] WARNING[3352] chan_dahdi.c: Ignoring any changes to 'hasmanager' (on reload) at line 47.
+[Dec  4 11:14:58] NOTICE[3352] chan_sip.c: The 'username' field for sip peers has been deprecated in favor of the term 'defaultuser'
+[Dec  4 11:14:58] ERROR[3352] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Dec  4 11:14:58] ERROR[3352] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Dec  4 11:14:58] ERROR[3352] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Dec  4 11:14:58] ERROR[3352] chan_motif.c: Unable to read config file motif.conf. Not loading module.
+[Dec  4 11:14:58] NOTICE[3352] confbridge/conf_config_parser.c: Adding default_user profile to app_confbridge
+[Dec  4 11:14:58] NOTICE[3352] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Dec  4 11:14:58] WARNING[3352] cel_tds.c: cel_tds module had config problems; declining load
+[Dec  4 11:14:58] NOTICE[3352] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Dec  4 11:14:58] NOTICE[3352] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Dec  4 11:14:58] WARNING[3352] cel_pgsql.c: CEL pgsql config file missing global section.
+[Dec  4 11:14:58] ERROR[3352] codec_dahdi.c: Failed to open /dev/dahdi/transcode: No such file or directory
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: Starting AEL load process.
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: AEL load process: parsed config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: AEL load process: checked config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: AEL load process: compiled config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: AEL load process: merged config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:14:58] NOTICE[3352] pbx_ael.c: AEL load process: verified config file name '/home/gabriel/asterisk11/etc/asterisk/extensions.ael'.
+[Dec  4 11:14:58] ERROR[3352] res_corosync.c: Failed to initialize cfg (6)
+[Dec  4 11:28:01] NOTICE[3382] chan_sip.c: Peer '103' is now Reachable. (12ms / 2000ms)
+[Dec  4 11:28:01] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:28:01] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:33:59] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:33:59] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:54:27] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:54:27] NOTICE[3382] chan_sip.c: Peer '103' is now Reachable. (11ms / 2000ms)
+[Dec  4 11:54:27] NOTICE[3382] chan_sip.c: Received SIP subscribe for peer without mailbox: 103
+[Dec  4 11:55:21] WARNING[3382] chan_sip.c: Retransmission timeout reached on transmission 1118206873@127.0.0.1 for seqno 515 (Critical Response) -- See https://wiki.asterisk.org/wiki/display/AST/SIP+Retransmissions
+Packet timed out after 32000ms with no response
